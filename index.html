@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Ecomoving</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;400&display=swap" rel="stylesheet">
+  <link rel="icon" href="icon.svg" sizes="32x32">
+</head>
+<body>
+  <header>
+    <img src="ecomoving_logo_h.png" alt="" class="logo-img">
+    <nav>
+      <a href="#subs-id" class="hyperlink">Subscribete</a>
+      <a href="#vent-id" class="hyperlink">Ventajas</a>
+      <a href="#ruta-id" class="hyperlink">Ruta</a>
+    </nav>
+  </header>
+  <main>
+    <p>Encuentra tu forma más rápida y sostenible de transporte por tu ciudad.</p>
+    <br>
+    <div class="ruta" id="ruta-id">
+      <h2>Encuentra tu ruta</h2>
+      <a href="#" class="ruta-link">
+        <img class="ruta-img" src="mapa_ruta.png" alt="">
+      </a>
+      <p>No queremos que des rodeos innecesarios o hacerte perder el tiempo. Nuestro sistema de rutas te ofrece las mejores opciones, con recomendaciones de itinerarios, medios de transporte recomendados, así como notificaciones de incidencias en tiempo real.</p>
+    </div>
+    <div class="subs" id="subs-id">
+      <a class="ruta-link">
+        <img class="subs-img" src="suscribete 1.jpg" alt="">
+      </a>
+      <div class="subs-text">
+        <h2>Subscribete</h2>
+        <p>Nuestro servicio de suscripción Madrid Mobile! te ofrece acceso a una gran variedad de medios de transporte, tanto de uso colectivo como individual.
+          <br>
+          <br>
+          Ya quieras llegar como un rayo, al otro lado de la ciudad, o viajar comodamente, disfrutando de las vistas, Madrid Mobile! te ofrece todo lo que puedas pedirle por mucho menos de lo que imaginas.</p>
+          <button type="button" name="button" class="subs-info">Más Información</button>
+        </div>
+      </div>
+      <div class="ventajas" id="vent-id">
+        <h2>Ventajas</h2>
+        <div class="vent-body">
+          <a class="vent-link">
+            <img class="vent-img" src="ventajas_imagenes.jpg" alt="">
+          </a>
+          <p>En Ecomoving marcámos la diferencia. Seguramente vienes utilizando el transporte público desde que eras un niño y puede que lo veas como algo trasnochado. Te haremos ver que no tenemos nada que ver con esa idea.</p>
+          <div class="vent-text">
+            <div class="box">
+              <img src="hucha_persona.png" alt="" class="vent-img-box senior">
+              <div class="veige-box">
+                <h3>Ahorro</h3>
+                <p>Sabemos lo que uno puede llegar a gastarse en transporte. Nosotros te ofrecemos la mejor alternativa para que no tengas que rascarte el bolsillo.</p>
+              </div>
+            </div>
+            <div class="box">
+              <img src="eficiencia_icon-01.png" alt="" class="vent-img-box reloj">
+              <div class="veige-box">
+                <h3>Eficiencia</h3>
+                <p>Para hacerte llegar con rapidez a cualquier lugar de la ciudad cuentas con todo lo que necesitas. Seas más de patinete o de autobús, todo está incluido. </p>
+              </div>
+            </div>
+            <div class="box">
+              <img src="sostenibilidad_icon-01.png" alt="" class="vent-img-box mundo">
+              <div class="veige-box">
+                <h3>Sostenibilidad</h3>
+                <p>Todas nuestras opciones de movilidad cuentan con el “sello eco friendly”. Así que no solo viajas, lo haces sabiendo que elijes una opción limpia y sostenible. </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <br><br>
+      <div class="last-part">
+        <img src="descargar_app.jpg" alt="" class="app-img">
+        <div class="last-text">
+          <p>Si quieres unirte a una nueva forma de transporte mas barata, eficiente y sostenible descargate nuestra app.</p>
+          <img src="logos_apps-01.png" alt="" class="dif-stores">
+        </div>
+
+      </div>
+      <div class="map">
+        <script>
+          (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            js = d.createElement(s); js.id = id;
+            js.src = "https://widgets.moovit.com/wtp/es";
+            fjs.parentNode.insertBefore(js, fjs);
+          }(document, 'script', 'moovit-jsw'))
+        </script>
+        <div class="mv-wtp">
+          data-metro="121"
+          data-lang="es"
+        </div>
+      </div>
+    </main>
+  </body>
+  </html>
